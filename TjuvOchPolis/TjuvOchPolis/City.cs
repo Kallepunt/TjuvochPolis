@@ -9,7 +9,7 @@ namespace TjuvOchPolis
         public int citysizeX;
         public int citysizeY;
 
-   
+
 
 
 
@@ -17,7 +17,7 @@ namespace TjuvOchPolis
         {
             citysizeX = width;
             citysizeY = height;
- 
+
 
 
 
@@ -53,7 +53,7 @@ namespace TjuvOchPolis
             }
 
 
-            DrawAndMovement(people, jail,arrests,robberies);
+            DrawAndMovement(people, jail, arrests, robberies);
         }
 
 
@@ -63,6 +63,10 @@ namespace TjuvOchPolis
             List<Person> outOfJail = new List<Person>();
             while (true)
             {
+
+               
+
+
                 foreach (Person person in people)
                 {
                     person.MovePlayer(random2.Next(-1, 2), random2.Next(-1, 2));
@@ -77,9 +81,30 @@ namespace TjuvOchPolis
                 foreach (var person in people)
                 {
                     Console.SetCursorPosition(person.Xposition, person.Yposition);
-                    Console.Write(person.Symbol);
+
+
+                    if (person.Symbol == 'C')
+                    {
+                        Console.ForegroundColor = ConsoleColor.DarkBlue;
+                        Console.Write(person.Symbol);
+                        Console.ForegroundColor = ConsoleColor.Gray;
+                    }
+
+                    else if (person.Symbol == 'T')
+                    {
+                        Console.ForegroundColor = ConsoleColor.DarkRed;
+                        Console.Write(person.Symbol);
+                        Console.ForegroundColor = ConsoleColor.Gray;
+                    }
+                    else if (person.Symbol == 'M')
+                    {
+                        Console.ForegroundColor = ConsoleColor.DarkGreen;
+                        Console.Write(person.Symbol);
+                        Console.ForegroundColor = ConsoleColor.Gray;
+                    }
+
                 }
-                LookforCollision(people, jail,arrests,robberies);
+                LookforCollision(people, jail, arrests, robberies);
 
                 foreach (var person in jail)
                 {
@@ -144,7 +169,7 @@ namespace TjuvOchPolis
                                     person2.RemoveItem(stolenGoods);
                                     Console.SetCursorPosition(60, 29);
                                     Console.ForegroundColor = ConsoleColor.DarkRed;
-                                    Console.WriteLine($"A pickpocket stole {stolenGoods.Name} from citizen");
+                                    Console.Write($"A pickpocket stole {stolenGoods.Name} from citizen");
                                     Console.ForegroundColor = ConsoleColor.Gray;
                                     robberies.Add(1);
 
@@ -168,7 +193,7 @@ namespace TjuvOchPolis
                                         person2.RemoveItem(item);
                                         Console.SetCursorPosition(60, 30);
                                         Console.ForegroundColor = ConsoleColor.DarkBlue;
-                                        Console.WriteLine($"A cop took {item.Name} from the pickpocket");
+                                        Console.Write($"A cop took {item.Name} from the pickpocket");
                                         Console.ForegroundColor = ConsoleColor.Gray;
                                         Thread.Sleep(1000);
 
@@ -197,7 +222,7 @@ namespace TjuvOchPolis
                 people.Remove(pickpocket);
             }
 
-            
+
 
         }
 

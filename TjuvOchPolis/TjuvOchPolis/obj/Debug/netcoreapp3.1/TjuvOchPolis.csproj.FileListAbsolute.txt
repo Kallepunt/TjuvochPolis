@@ -11,3 +11,16 @@ C:\Users\Okar\Dropbox\Skola\TjuvOchPolis\TjuvOchPolis\obj\Debug\netcoreapp3.1\Tj
 C:\Users\Okar\Dropbox\Skola\TjuvOchPolis\TjuvOchPolis\obj\Debug\netcoreapp3.1\TjuvOchPolis.pdb
 C:\Users\Okar\Dropbox\Skola\TjuvOchPolis\TjuvOchPolis\obj\Debug\netcoreapp3.1\TjuvOchPolis.genruntimeconfig.cache
 C:\Users\Okar\Dropbox\Skola\TjuvOchPolis\TjuvOchPolis\obj\Debug\netcoreapp3.1\TjuvOchPolis.csprojAssemblyReference.cache
+C:\Users\Okar\Dropbox\My PC (DESKTOP-UUJ6UAU)\Documents\GitHub\TjuvochPolis\TjuvOchPolis\TjuvOchPolis\bin\Debug\netcoreapp3.1\TjuvOchPolis.exe
+C:\Users\Okar\Dropbox\My PC (DESKTOP-UUJ6UAU)\Documents\GitHub\TjuvochPolis\TjuvOchPolis\TjuvOchPolis\bin\Debug\netcoreapp3.1\TjuvOchPolis.deps.json
+C:\Users\Okar\Dropbox\My PC (DESKTOP-UUJ6UAU)\Documents\GitHub\TjuvochPolis\TjuvOchPolis\TjuvOchPolis\bin\Debug\netcoreapp3.1\TjuvOchPolis.runtimeconfig.json
+C:\Users\Okar\Dropbox\My PC (DESKTOP-UUJ6UAU)\Documents\GitHub\TjuvochPolis\TjuvOchPolis\TjuvOchPolis\bin\Debug\netcoreapp3.1\TjuvOchPolis.runtimeconfig.dev.json
+C:\Users\Okar\Dropbox\My PC (DESKTOP-UUJ6UAU)\Documents\GitHub\TjuvochPolis\TjuvOchPolis\TjuvOchPolis\bin\Debug\netcoreapp3.1\TjuvOchPolis.dll
+C:\Users\Okar\Dropbox\My PC (DESKTOP-UUJ6UAU)\Documents\GitHub\TjuvochPolis\TjuvOchPolis\TjuvOchPolis\bin\Debug\netcoreapp3.1\TjuvOchPolis.pdb
+C:\Users\Okar\Dropbox\My PC (DESKTOP-UUJ6UAU)\Documents\GitHub\TjuvochPolis\TjuvOchPolis\TjuvOchPolis\obj\Debug\netcoreapp3.1\TjuvOchPolis.csprojAssemblyReference.cache
+C:\Users\Okar\Dropbox\My PC (DESKTOP-UUJ6UAU)\Documents\GitHub\TjuvochPolis\TjuvOchPolis\TjuvOchPolis\obj\Debug\netcoreapp3.1\TjuvOchPolis.AssemblyInfoInputs.cache
+C:\Users\Okar\Dropbox\My PC (DESKTOP-UUJ6UAU)\Documents\GitHub\TjuvochPolis\TjuvOchPolis\TjuvOchPolis\obj\Debug\netcoreapp3.1\TjuvOchPolis.AssemblyInfo.cs
+C:\Users\Okar\Dropbox\My PC (DESKTOP-UUJ6UAU)\Documents\GitHub\TjuvochPolis\TjuvOchPolis\TjuvOchPolis\obj\Debug\netcoreapp3.1\TjuvOchPolis.csproj.CoreCompileInputs.cache
+C:\Users\Okar\Dropbox\My PC (DESKTOP-UUJ6UAU)\Documents\GitHub\TjuvochPolis\TjuvOchPolis\TjuvOchPolis\obj\Debug\netcoreapp3.1\TjuvOchPolis.dll
+C:\Users\Okar\Dropbox\My PC (DESKTOP-UUJ6UAU)\Documents\GitHub\TjuvochPolis\TjuvOchPolis\TjuvOchPolis\obj\Debug\netcoreapp3.1\TjuvOchPolis.pdb
+C:\Users\Okar\Dropbox\My PC (DESKTOP-UUJ6UAU)\Documents\GitHub\TjuvochPolis\TjuvOchPolis\TjuvOchPolis\obj\Debug\netcoreapp3.1\TjuvOchPolis.genruntimeconfig.cache

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Okar\\Dropbox\\Skola\\TjuvOchPolis\\TjuvOchPolis\\TjuvOchPolis.csproj": {}
+    "C:\\Users\\Okar\\Dropbox\\My PC (DESKTOP-UUJ6UAU)\\Documents\\GitHub\\TjuvochPolis\\TjuvOchPolis\\TjuvOchPolis\\TjuvOchPolis.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Okar\\Dropbox\\Skola\\TjuvOchPolis\\TjuvOchPolis\\TjuvOchPolis.csproj": {
+    "C:\\Users\\Okar\\Dropbox\\My PC (DESKTOP-UUJ6UAU)\\Documents\\GitHub\\TjuvochPolis\\TjuvOchPolis\\TjuvOchPolis\\TjuvOchPolis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Okar\\Dropbox\\Skola\\TjuvOchPolis\\TjuvOchPolis\\TjuvOchPolis.csproj",
+        "projectUniqueName": "C:\\Users\\Okar\\Dropbox\\My PC (DESKTOP-UUJ6UAU)\\Documents\\GitHub\\TjuvochPolis\\TjuvOchPolis\\TjuvOchPolis\\TjuvOchPolis.csproj",
         "projectName": "TjuvOchPolis",
-        "projectPath": "C:\\Users\\Okar\\Dropbox\\Skola\\TjuvOchPolis\\TjuvOchPolis\\TjuvOchPolis.csproj",
+        "projectPath": "C:\\Users\\Okar\\Dropbox\\My PC (DESKTOP-UUJ6UAU)\\Documents\\GitHub\\TjuvochPolis\\TjuvOchPolis\\TjuvOchPolis\\TjuvOchPolis.csproj",
         "packagesPath": "C:\\Users\\Okar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Okar\\Dropbox\\Skola\\TjuvOchPolis\\TjuvOchPolis\\obj\\",
+        "outputPath": "C:\\Users\\Okar\\Dropbox\\My PC (DESKTOP-UUJ6UAU)\\Documents\\GitHub\\TjuvochPolis\\TjuvOchPolis\\TjuvOchPolis\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
