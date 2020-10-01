@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 
 namespace TjuvOchPolis
 {
@@ -6,8 +7,9 @@ namespace TjuvOchPolis
     {
         static void Main(string[] args)
         {
+
             City city = new City();
-            city.PopulateCity(100,25,20,10,10);
+            city.PopulateCity(100,25,50,10,5);
 
         }
     }

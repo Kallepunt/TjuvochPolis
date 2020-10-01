@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Threading;
 
 namespace TjuvOchPolis
@@ -63,18 +64,22 @@ namespace TjuvOchPolis
             List<Person> outOfJail = new List<Person>();
             while (true)
             {
-
-               
+                Point Citypoint = new Point(new Size(0, 0));
+                Point jailPoint = new Point(new Size(28, 26));
+                ConsoleRectangle box = new ConsoleRectangle(100, 25, Citypoint, ConsoleColor.White);
+                ConsoleRectangle box2 = new ConsoleRectangle(10, 1, jailPoint, ConsoleColor.White);
+                box.Draw();
+                box2.Draw();
 
 
                 foreach (Person person in people)
                 {
                     person.MovePlayer(random2.Next(-1, 2), random2.Next(-1, 2));
 
-                    if (person.Xposition < 0) { person.Xposition = citysizeX; }
-                    if (person.Xposition > citysizeX) { person.Xposition = 0; }
-                    if (person.Yposition < 0) { person.Yposition = citysizeY; }
-                    if (person.Yposition > citysizeY) { person.Yposition = 0; }
+                    if (person.Xposition < 1) { person.Xposition = citysizeX; }
+                    if (person.Xposition > citysizeX) { person.Xposition = 1; }
+                    if (person.Yposition < 1) { person.Yposition = citysizeY; }
+                    if (person.Yposition > citysizeY) { person.Yposition = 1; }
 
 
                 }
@@ -102,23 +107,29 @@ namespace TjuvOchPolis
                         Console.Write(person.Symbol);
                         Console.ForegroundColor = ConsoleColor.Gray;
                     }
+                    Console.SetCursorPosition(29, 27);
+
+                }
+                foreach (var person in jail)
+                {
+                    Console.ForegroundColor = ConsoleColor.DarkRed;
+                    Console.Write(person.Symbol);
+                    Console.ForegroundColor = ConsoleColor.Gray;
 
                 }
                 LookforCollision(people, jail, arrests, robberies);
 
                 foreach (var person in jail)
                 {
-                    if (person.GetJailTimer() < 100)
+                    if (person.GetJailTimer() <  100)
                     {
                         person.IncreaseJailTimer();
                         Console.SetCursorPosition(60, 27);
-                        Console.WriteLine($"A pickpocket has been in jail for {person.GetJailTimer()}");
-
+                        Console.Write($"A pickpocket has been in jail for {person.GetJailTimer()}");
 
                     }
                     else
                     {
-                        people.Add(person);
                         outOfJail.Add(person);
                         person.ResetJailTimer();
                         Console.SetCursorPosition(60, 28);
@@ -133,6 +144,7 @@ namespace TjuvOchPolis
                 foreach (var person in outOfJail)
                 {
                     jail.Remove(person);
+                    people.Add(person);
                 }
                 Console.SetCursorPosition(0, 27);
                 Thread.Sleep(50);
@@ -229,6 +241,7 @@ namespace TjuvOchPolis
 
 
     }
+
 
 
 }
